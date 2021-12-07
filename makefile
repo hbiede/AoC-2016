@@ -26,8 +26,6 @@ solutionFiles:
 	@mkdir -p src/day${LONG_DAY}
 	@cp -r template/ src/day${LONG_DAY}/
 	@git add src/day${LONG_DAY}
-	@-sed -i '' -e "s/!DAY!/${LONG_DAY}/g" src/day${LONG_DAY}/*.*
-	@-sed -i '' -e "s/!DAY!/${LONG_DAY}/g" src/day${LONG_DAY}/**/*.*
 
 ## Downloads the instructions and inputs for a day
 download: src/day${LONG_DAY}/problem.md src/day${LONG_DAY}/input.txt
