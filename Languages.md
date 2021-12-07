@@ -1,6 +1,6 @@
 # Challenge Languages:
-- Excel
-- SQL - Done: Day 3
+- Excel - Done: Day 3
+- SQL
 - TI-Basic - Done: Day 1
 
 # Unknown Languages:
