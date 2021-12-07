@@ -30,28 +30,21 @@ solutionFiles:
 	@-sed -i '' -e "s/!DAY!/${LONG_DAY}/g" src/day${LONG_DAY}/**/*.*
 
 ## Downloads the instructions and inputs for a day
-download: src/day${LONG_DAY}/README.md src/day${LONG_DAY}/input.txt
+download: src/day${LONG_DAY}/problem.md src/day${LONG_DAY}/input.txt
 
 src/day${LONG_DAY}/input.txt:
 	@echo "${H}=== Downloading input for day ${SHORT_DAY} ===${X}"
 	@curl -s -b "session=${SESSION}" https://adventofcode.com/${YEAR}/day/${SHORT_DAY}/input > src/day${LONG_DAY}/input.txt
 	@git add src/day${LONG_DAY}/input.txt
 
-src/day${LONG_DAY}/README.md: src/day${LONG_DAY}/challenge.html
+src/day${LONG_DAY}/problem.md: src/day${LONG_DAY}/challenge.html
 	@echo "${H}=== Parsing input ===${X}"
 	@./scripts/parse_challenge.sh ${LONG_DAY}
-	@git add src/day${LONG_DAY}/README.md
+	@git add src/day${LONG_DAY}/problem.md
 
 src/day${LONG_DAY}/challenge.html:
 	@echo "${H}=== Downloading challenge for day ${SHORT_DAY} ===${X}"
 	@curl -s -b "session=${SESSION}" https://adventofcode.com/${YEAR}/day/${SHORT_DAY} > src/day${LONG_DAY}/challenge.html
-
-
-## Update the readme with the latest AoC stats
-stats:
-	@echo "${H}=== Creating Stats Table ===${X}"
-	@$(eval TABLE = $(shell python3 scripts/generate_stats.py ${COOKIE_FILE} ${YEAR}))
-	@sed 's/STATS_TABLE/${TABLE}/g' README_template.md | awk '{gsub(/~~/,"\n")}1' > README.md
 
 ## Create necessary files for the new repo
 setup:
