@@ -7,7 +7,8 @@
 - Julia
 - R
 - Lisp
-- Perl/Raku
+- Perl
+- Raku
 - Elixer
 - Erlang
 - Kotlin
