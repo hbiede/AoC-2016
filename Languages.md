@@ -16,7 +16,7 @@
 
 # Slightly Experienced:
 - Lua
-- Obj-C
+- Obj-C - Done: Day 6
 - Bash
 - MatLab
 - Prolog - Done: Day 2
