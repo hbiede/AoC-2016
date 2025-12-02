@@ -24,7 +24,7 @@
 - C#
 - C
 - PHP
-- Bash
+- Bash - Done: Day 4
 
 # More Familiar:
 - Rust
