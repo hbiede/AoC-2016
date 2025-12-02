@@ -28,11 +28,11 @@
 
 # More Familiar:
 - Rust
-- Ruby
-- Swift
+- Ruby - Done: Day 5
 
 # Known Languages:
 - Python
 - Java
 - Golang
 - TypeScript
+- Swift
