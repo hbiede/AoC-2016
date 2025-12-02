@@ -25,6 +25,7 @@
 |    1 | [TI-Basic](https://en.wikipedia.org/wiki/TI-BASIC)               |
 |    2 | [Prolog](https://www.swi-prolog.org)                             |
 |    3 | [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel#Functions) |
+|    4 | [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) |
 
 [^polyglot]: The polyglot challenge is a challenge to use a different programming language
 for every day of the event. I am adding extra challenge by attempting to use more
