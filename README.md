@@ -27,7 +27,8 @@
 |    3 | [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel#Functions) |
 |    4 | [Bash](https://en.wikipedia.org/wiki/Bash_(Unix_shell))          |
 |    5 | [Ruby](https://www.ruby-lang.org/en/)                            |
-|    5 | [Objective-C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html) |
+|    6 | [Objective-C](https://developer.apple.com/library/archive/documentation/Cocoa/Conceptual/ProgrammingWithObjectiveC/Introduction/Introduction.html) |
+|    7 | [Perl](https://www.perl.org/)                                    |
 
 [^polyglot]: The polyglot challenge is a challenge to use a different programming language
 for every day of the event. I am adding extra challenge by attempting to use more

@@ -7,7 +7,7 @@
 - Julia
 - R
 - Lisp
-- Perl
+- Perl - Done: Day 7
 - Raku
 - Elixer
 - Erlang
